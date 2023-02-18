@@ -1,6 +1,5 @@
-
 body{
-    background-image: url(fondo.3.jpg);
+    background-image: url(fondo.claro.jpg);
 }
 
 *{
@@ -8,32 +7,15 @@ body{
     color: rgb(31, 75, 75);
     font-size: 10px;
     font-weight: bold;
-    text-align: right
-}
-
-.col-10{
-    padding: 2px;
-    border: olive solid;
-    background-color: rgb(243, 211, 211);
-    align-items: center;
-    padding-top: 20px;
-    margin-top: 15px;
-}
-
-.col-4, .col{
-    margin-right: 10px;
-    margin-left: 100px;
-    margin-top: 10px;
-    padding: 20px;
-    align-items: center;
+    text-align: center
 }
 
 h1{
     font-weight: bold;
-    font-size: 100px;
+    font-size: 80px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    color: olive;
+    color: rgb(53, 53, 5);
 }
 
 h2{
@@ -46,8 +28,20 @@ h2{
 h3{
     font-weight: bold;
     text-align: left;
-    font-size: 25px;
+    font-size: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h5{
+    text-align: center;
+}
+
+h6{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    color: rgb(15, 37, 37);
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center
 }
 
 p{
@@ -57,18 +51,13 @@ p{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-h6{
-    font-family: 'Courier New', Courier, monospace; 
-    color: rgb(31, 75, 75);
+#cita{
+    color: rgb(49, 40, 40);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
     font-size: 10px;
-    font-weight: bold;
-    text-align: right
 }
 
-#cita{
-    color: gray;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    font-size: 15px;
-    font-style: oblique;
+.card-body{
+    background-image:url(fondo.5.jpg)
 }
