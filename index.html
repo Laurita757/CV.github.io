@@ -42,7 +42,7 @@
    </header>
    <nav>
         <main class="container justify-content-center align-items-center">
-            <div class="row p-5">
+            <div class="row">
                 <div class="col-12 col-sm-6">
                     <article>
                         <h2>Contacto</h2>
@@ -133,10 +133,36 @@
     </nav>
     <footer>
         <div class="container">
+            <h4>Formulario de contacto:</h4>
+            <div class="row align-content-start">
+                <div class="col col-sm-2">
+                    <form>
+                        <div class="mb-3">
+                          <label for="nombre-de-contacto" class="form-label">Nombre y Apellido:</label>
+                          <input type="text" class="form-control" id="nombre" aria-describedby="nombre">
+                        </div>
+                    </form>
+                </div>        
+                <div class="col col-sm-4">
+                    <form>
+                        <div class="mb-3">
+                          <label for="consulta" class="form-label">Consulta:</label>
+                          <input type="text" class="form-control" id="consulta">
+                          <input type="text" id="myInput" oninput="myFunction()">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-sm-1">
+                    <button type="submit" class="btn btn-dark" id="botonEnviar">Enviar</button>
+                </div>
+            </div>
             <div class="row">
                <h6>Dra. Claire Perry - Contacto: (0351)4987123 - Av. Poeta Lugones 1234, Córdoba Capital, Argentina.</h6>
             </div>
         </div>
     </footer>
+    <script src="cv-interactivo.js"></script>
 </body>
 </html>
