@@ -42,8 +42,8 @@ h2{
     font-weight: bold;
     text-align: left;
     font-size: 20px;
-    font-family: 
-    color:olive;
+    font-family: 'Acme', sans-serif;
+    color: olive;
     padding: 4px;
     margin-top: 2px;
     margin-bottom: 2px;
@@ -83,8 +83,8 @@ h6{
     font-size: 10px;
     font-weight: bold;
     text-align:right;
-    margin-top: 3px;
-    padding-top: 4px;
+    margin-top: 4px;
+    padding-top: 6px;
 }
 
 /**

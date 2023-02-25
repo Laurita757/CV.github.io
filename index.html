@@ -78,7 +78,6 @@
                             </svg>
                         </div>
                         <p>@claireperry</p>
-             
                     </article>
                     <article>
                         <h2>Habilidades</h2>
@@ -94,8 +93,8 @@
                     <article>
                         <h2>Idiomas</h2>
                         <ul>
-                            <li><h3>Inglés</h3><p>Nivel C2</p></li>     
-                            <li><h3>Italiano</h3><p>Nivel B2</p></li>
+                            <li><h3>Inglés</h3></li>     
+                            <li><h3>Italiano</h3></li>
                         </ul>
                     </article>
                 </div>
@@ -132,32 +131,29 @@
         </main>
     </nav>
     <footer>
-        <div class="container">
+        <div class="container border-top border-1 border-dark">
             <h4>Formulario de contacto:</h4>
-            <div class="row align-content-start">
-                <div class="col col-sm-2">
-                    <form>
+            <form name="myForm" method="post" action="javascript:validateForm()">
+                <div class="row">
+                    <div class="col col-sm-2">
                         <div class="mb-3">
-                          <label for="nombre-de-contacto" class="form-label">Nombre y Apellido:</label>
-                          <input type="text" class="form-control" id="nombre" aria-describedby="nombre">
+                            <label for="nombre-de-contacto" class="form-label">Nombre:</label>
+                            <input required type="text" name="fname" class="form-control" id="nombre">
                         </div>
-                    </form>
-                </div>        
-                <div class="col col-sm-4">
-                    <form>
-                        <div class="mb-3">
-                          <label for="consulta" class="form-label">Consulta:</label>
-                          <input type="text" class="form-control" id="consulta">
-                          <input type="text" id="myInput" oninput="myFunction()">
+                    </div> 
+                    <div class="col col-sm-4">
+                        <div class="mb-3 h-25">
+                            <label for="consulta" class="form-label">Consulta:</label>
+                            <textarea required class="form-control" id="area-de-consulta" rows="2" input type="text" name="fname"></textarea>
                         </div>
-                    </form>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col col-sm-1">
-                    <button type="submit" class="btn btn-dark" id="botonEnviar">Enviar</button>
+                <div class="row">
+                    <div class="col col-sm-2">
+                        <input name="Submit"  type="submit" value="Enviar">
+                    </div>
                 </div>
-            </div>
+            </form>
             <div class="row">
                <h6>Dra. Claire Perry - Contacto: (0351)4987123 - Av. Poeta Lugones 1234, Córdoba Capital, Argentina.</h6>
             </div>
